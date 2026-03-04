@@ -1,0 +1,51 @@
+//@use 'ant-design-colors-scss/index' as antd-colors;
+
+.homePageContainer {
+    max-width: 640px;
+    margin-inline: auto;
+
+    .title {
+    color: #1677ff;
+    }
+
+    .tripAndPassengerInput {
+        background-color: white;
+        padding: 3px 24px;
+        border-radius: 10px;
+
+        @media screen and (max-width: 600px) {
+            flex-direction:  column;
+            padding: 12px 24px;
+            justify-content: center;
+        }
+    }
+
+    .formItem {
+        flex: 1;
+        width: 100%;
+        margin-bottom: 0;
+
+        @media screen and (max-width: 600px) {
+            margin: 0;
+        }
+
+    }
+    .formItem :global(.ant-form-item-control) {
+        max-width: none;
+
+    }
+
+
+
+    .departureAndArrivalContainer {
+        @media screen and (max-width: 600px) {
+            flex-direction:  column;
+            gap: 8px;
+        }
+    }
+
+
+
+}
+
+
