@@ -1,0 +1,38 @@
+.trainCard {
+
+  p {
+    font-weight: 500;
+  }
+
+  .mainInfo {
+    margin-top: 0.8rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+  }
+
+  .departureInfo {
+    p {
+      margin: 0;
+
+    }
+  }
+
+  .duration {
+    margin: 0;
+    text-align: center;
+  }
+
+  .arrivalInfo {
+    justify-self: right;
+    p {
+      margin: 0;
+
+
+    }
+  }
+.date {
+  font-weight: 700;
+}
+
+}

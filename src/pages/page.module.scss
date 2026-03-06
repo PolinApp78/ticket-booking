@@ -42,9 +42,59 @@
             flex-direction:  column;
             gap: 8px;
         }
+
     }
 
+}
 
+//////////////////////////////////////////////////////
+//.boardingDetails {
+//    background-color: rgb(204, 230, 255);
+//}
+//.boardingDetails tr {
+//    border: 1px solid #1100ff;
+//    //padding: 10px;
+//}
+//.boardingDetails td {
+//    border: 1px solid #1100ff;
+//    //padding: 10px;
+//}
+//.boardingDetails th {
+//    padding: 10px;
+//    border: 1px solid #1100ff;
+//    background-color: rgb(242, 249, 255);
+//}
+//
+//.customRemarkCell {
+//
+//}
+//////////////////////////////////////////////////
+
+.searchResultsContainer {
+    max-width: 640px;
+    margin-inline: auto;
+
+    .title {
+        color: #13c2c2;
+        padding: 2rem;
+        //margin-bottom: 2rem;
+
+    }
+
+  .descriptions {
+
+    border: 1px solid #1677ff;
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+  }
+
+
+    .trainsCardsContainer {
+        max-width: 640px;
+        margin-inline: auto;
+
+    }
 
 }
 
